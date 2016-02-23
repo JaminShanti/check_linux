@@ -4,50 +4,14 @@ TODO: Cookbook to deploy check_linux server
 
 Requirements
 ------------
-TODO: List your cookbook requirements. Be sure to include any requirements this cookbook has on platforms, libraries, other cookbooks, packages, operating systems, etc.
+Chef Cookbook to collect custom Metrics for AWS Cloudwatch
+This cookbook collects:
+MemoryUtilization
+SystemUpdatesCritical
+SystemUpdatesImportant
+AVDatVersion
 
-e.g.
-#### packages
-- `toaster` - check_linux needs toaster to brown your bagel.
 
-Attributes
-----------
-TODO: List your cookbook attributes here.
-
-e.g.
-#### check_linux::default
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['git']['branch']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['git']['branch']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['check_linux']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-  <tr>
-    <td><tt>['check_linux']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-    </tr>
-</table>
 
 Usage
 -----

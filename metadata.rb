@@ -1,0 +1,5 @@
+name 'check_linux'
+description 'update check_linux_file'
+version '1.0.2'
+maintainer 'Jamin Shanti'
+maintainer_email 'radjammin@gmail.com'
